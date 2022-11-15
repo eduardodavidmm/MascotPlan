@@ -181,7 +181,7 @@ a:hover {
 
 a:active, a:hover {
   outline: 0 none;
-  color: #007ae1; }
+  color: yellow; }
 
 ul {
   list-style: outside none none;
@@ -287,7 +287,7 @@ ul {
   .header-area.text-color .menu-ara .main-menu ul li a {
     color: #000000; }
     .header-area.text-color .menu-ara .main-menu ul li a:hover {
-      color: #A8EB12; }
+      color: yellow; }
   .header-area .logo-area {
     margin-top: 12px; }
   .header-area .menu-ara .main-menu ul {
@@ -297,7 +297,7 @@ ul {
     .header-area .menu-ara .main-menu ul li {
       display: inline-block; }
       .header-area .menu-ara .main-menu ul li.active a {
-        color: #A8EB12; }
+        color: yellow; }
       .header-area .menu-ara .main-menu ul li.sub-item {
         position: relative; }
         .header-area .menu-ara .main-menu ul li.sub-item:hover .sub-menu {
@@ -309,7 +309,7 @@ ul {
           margin: 0;
           padding: 0;
           list-style: none;
-          background: linear-gradient(to right bottom, #007ae1, #008fe8, #00a2e9, #00b3e6, #00c3e1);
+          background: #404040;
           -webkit-border-radius: 8px;
           -moz-border-radius: 8px;
           -ms-border-radius: 8px;
@@ -343,7 +343,7 @@ ul {
               text-transform: capitalize; }
               .header-area .menu-ara .main-menu ul li.sub-item .sub-menu li a:hover {
                 padding-left: 30px;
-                color: #00c9e1; }
+                color: yellow }
       .header-area .menu-ara .main-menu ul li a {
         display: inline-block;
         padding: 12px 25px;
@@ -357,7 +357,7 @@ ul {
         -ms-transition: all 0.5s;
         transition: all 0.5s; }
         .header-area .menu-ara .main-menu ul li a:hover {
-          color: #A8EB12; }
+          color: yellow; }
   .header-area .header-right .banner-btn {
     display: inline-block;
     background: #000;
@@ -428,6 +428,7 @@ ul {
     color: #828181;
     margin-bottom: 30px; }
   .banner-area-two .banner-text .banner-btn .primary-btn {
+    font-weight: bolder;
     background: #000;
     color: #FFFFFF; }
     .banner-area-two .banner-text .banner-btn .primary-btn:hover {
@@ -745,7 +746,7 @@ ul {
     text-transform: capitalize;
     margin-bottom: 25px; }
     .section-title h2 span {
-      color: #0083e1; }
+      color: #000; }
   .section-title p {
     margin-bottom: 0px;
     font-size: 16px;
@@ -1142,7 +1143,7 @@ ul {
     .fun-facts-area .single-counter .counter {
       font-size: 40px;
       font-weight: 700;
-      color: #0083e1;
+      color: #000;
       margin-bottom: 5px;
       margin-top: 0px; }
     .fun-facts-area .single-counter span {
