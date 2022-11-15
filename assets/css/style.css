@@ -360,7 +360,7 @@ ul {
           color: #A8EB12; }
   .header-area .header-right .banner-btn {
     display: inline-block;
-    background: #00c7e1;
+    background: #000;
     font-size: 17px;
     font-weight: 400;
     color: #ffffff;
@@ -378,7 +378,7 @@ ul {
     -ms-transition: all 0.5s;
     transition: all 0.5s; }
     .header-area .header-right .banner-btn:hover {
-      background: #007ae1; }
+      background: #000; }
 
 /*---------------------------------------
 3.banner-area
@@ -386,7 +386,7 @@ ul {
 .banner-area {
   padding-top: 230px;
   padding-bottom: 135px;
-  background: url(../../assets/images/banner/bg.jpg) no-repeat;
+  background: url(../../assets/images/banner/bg3.jpg) no-repeat;
   background-position: center;
   background-size: cover; }
   .banner-area .banner-text h1 {
@@ -428,11 +428,11 @@ ul {
     color: #828181;
     margin-bottom: 30px; }
   .banner-area-two .banner-text .banner-btn .primary-btn {
-    background: #5135e6;
+    background: #000;
     color: #FFFFFF; }
     .banner-area-two .banner-text .banner-btn .primary-btn:hover {
       color: #FFFFFF;
-      background: #00c9e1; }
+      background: #000; }
 
 /*---------------------------------------
 4.primary-btn
@@ -457,8 +457,8 @@ ul {
   -ms-transition: all 0.5s;
   transition: all 0.5s; }
   .primary-btn:hover {
-    background: #00c9e1;
-    color: #ffffff; }
+    background: yellow;
+    color: #000; }
 
 /*---------------------------------------
 5.offer-area
@@ -474,14 +474,14 @@ ul {
       text-transform: capitalize;
       margin-bottom: 18px; }
       .offer-area .single-offer .media .media-body h5 a {
-        color: #2f5299;
+        color: #404040;
         -webkit-transition: all 0.5s;
         -o-transition: all 0.5s;
         -moz-transition: all 0.5s;
         -ms-transition: all 0.5s;
         transition: all 0.5s; }
         .offer-area .single-offer .media .media-body h5 a:hover {
-          color: #00c9e1; }
+          color: #404040; }
     .offer-area .single-offer .media .media-body p {
       font-size: 16px;
       line-height: 28px;
@@ -559,7 +559,7 @@ ul {
         -moz-transform: scaleX(1.06);
         -ms-transform: scaleX(1.06);
         transform: scaleX(1.06);
-        background: linear-gradient(to right bottom, #007ae1, #008fe8, #00a2e9, #00b3e6, #00c3e1); }
+        background: #404040; }
         .featurs-area .feature-left .single-feature:hover .feature-title h3 {
           color: #FFFFFF; }
         .featurs-area .feature-left .single-feature:hover .feature-contetn p {
